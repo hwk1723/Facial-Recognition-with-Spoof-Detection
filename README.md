@@ -1,3 +1,7 @@
 This project focuses on creating a facial recognition system with integrated spoof detection, ensuring secure and reliable identification. Using a Raspberry Pi, I implemented face detection and recognition locally with OpenCV and the Facial-Recognition library. All data processing and storage are handled on the Raspberry Pi, ensuring user privacy by keeping sensitive information offline. Following a tutorial from Core Electronics, I captured and trained the system to recognize faces directly on the device.
 
 To enhance security, I addressed vulnerabilities such as spoofing attacks, where the system could be tricked using photos or other media. By integrating the Silent-Face-Anti-Spoofing framework, I introduced liveness detection technology. This detects whether the face is real or presented via fake mediums, including printed photos, digital displays, masks, or 3D models. The combined system offers robust facial recognition with enhanced protection against spoofing, making it suitable for privacy-conscious and secure applications.
+
+References:
+https://core-electronics.com.au/guides/raspberry-pi/face-recognition-with-raspberry-pi-and-opencv/
+https://github.com/computervisioneng/Silent-Face-Anti-Spoofing?tab=readme-ov-file
